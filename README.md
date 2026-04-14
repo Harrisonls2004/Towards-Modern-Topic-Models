@@ -5,7 +5,7 @@ A curated list of papers and resources based on our survey paper **"Topic Models
 
 The template is adapted from [Awesome-Language-Model-on-Graphs](https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs).
 
-![Framework](Figures\topic-modeling.jpg)
+![Framework](Figures/topic-modeling.jpg)
 
 ## Introduction
 
