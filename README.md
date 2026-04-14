@@ -1,9 +1,11 @@
 # Towards-Modern-Topic-Models
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of papers and resources based on our survey paper **"Topic Models Towards the Modern: A Comprehensive Survey of Topic Models in the Era of Large Language Models"**.
+A curated list of papers and resources based on our survey paper **"Topic Models Towards the Modern: A Comprehensive Survey of Topic Models in the Era of Large Language Models"**, which is published at ACL 2026 Findings.
 
-![图片描述文字](Figures\topic-modeling.png)
+The template is adapted from [Awesome-Language-Model-on-Graphs](https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs).
+
+![Framework](Figures\topic-modeling.jpg)
 
 ## Introduction
 
@@ -352,8 +354,8 @@ We further discuss how the TM paradigm may evolve—spanning task boundaries, in
 3. **BettaFish** [[Code](https://github.com/666ghj/BettaFish/tree/main)]
 
 4. **automated survey pipelines** `arXiv 2025`
-*Xun Liang, Jiawei Yang, Yezhaohui Wang, Chen Tang, Zifan Zheng, Shichao Song, Zehao Lin, Yebin Yang, Simin Niu, Hanyu Wang, Bo Tang, Feiyu Xiong, Keming Mao, Zhiyu li*
-[[pdf](https://arxiv.org/abs/2502.14776)]
+   
+   *Xun Liang, Jiawei Yang, Yezhaohui Wang, Chen Tang, Zifan Zheng, Shichao Song, Zehao Lin, Yebin Yang, Simin Niu, Hanyu Wang, Bo Tang, Feiyu Xiong, Keming Mao, Zhiyu li*[[PDF](https://arxiv.org/abs/2502.14776)]
 
 ## Datasets and Benchmarks
 
@@ -408,7 +410,7 @@ We further discuss how the TM paradigm may evolve—spanning task boundaries, in
 
 1. **Gensim** - Python library for topic modeling [[Code](https://github.com/RaRe-Technologies/gensim)]
 
-2. **scikit-learn** - Machine learning library with LDA [[Code](https://github.com/scikit-learn/scikit-learn)]
+2. **Scikit-learn** - Machine learning library with LDA [[Code](https://github.com/scikit-learn/scikit-learn)]
 
 3. **MALLET** - Java-based topic modeling toolkit [[Link](http://mallet.cs.umass.edu/)]
 
