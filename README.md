@@ -24,6 +24,7 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 - [Towards-Modern-Topic-Models](#towards-modern-topic-models)
   - [Introduction](#introduction)
   - [Contents](#contents)
+  - [Prior Surveys](#prior-surveys)
   - [Classical Topic Models](#classical-topic-models)
     - [Latent Dirichlet Allocation (LDA)](#latent-dirichlet-allocation-lda)
     - [Embedding-based Topic Models](#embedding-based-topic-models)
@@ -63,6 +64,20 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
     - [Neural Topic Modeling](#neural-topic-modeling)
     - [LLM-based Topic Modeling](#llm-based-topic-modeling)
   - [Contribution](#contribution)
+
+## Prior Surveys
+
+1. **Topic modeling algorithms and applications: A survey** `Information Systems 2023`
+
+   *Aly Abdelrazek, Yomna Eid, Eman Gawish, Walaa Medhat, Ahmed Hassan* [[PDF](https://doi.org/10.1016/j.is.2022.102131)]
+
+2. **A Survey on Neural Topic Models: Methods, Applications, and Challenges** `Artificial Intelligence Review 2024`
+
+   *Xiaobao Wu, Thong Nguyen, Anh Tuan Luu* [[PDF](https://doi.org/10.1007/s10462-023-10661-7)]
+
+3. **A Comprehensive Overview of Topic Modeling: Techniques, Applications and Challenges** `Neurocomputing 2025`
+
+   *Mustapha Hankar, Mohammed Kasri, Abderrahim Beni-Hssane* [[PDF](https://doi.org/10.1016/j.neucom.2025.129638)]
 
 ## Classical Topic Models
 
@@ -138,6 +153,10 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 
    *Abilasha S, Rafika Boutalbi, Stéphane Delliaux* [[PDF](https://dl.acm.org/doi/10.1145/3701716.3715563)]
 
+7. **Topic modeling through rank-based aggregation and LLMs** `Knowledge-Based Systems 2025`
+
+   *Celikten, Onan* [[PDF](https://www.sciencedirect.com/science/article/abs/pii/S0950705125002667)]
+
 #### Other Embeddings
 
 1. **HyperMiner: Topic Taxonomy Mining with Hyperbolic Embedding** `NeurIPS 2022`
@@ -212,6 +231,18 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 
    *Hoang Tran Vuong, Tue Le, Tu Vu, Tung Nguyen, Linh Ngo Van, Sang Dinh, Thien Huu Nguyen* [[PDF](https://aclanthology.org/2025.findings-acl.715/)]
 
+4. **Neural Topic Modeling via Contextual and Graph Information Fusion** `EMNLP 2025`
+
+   *Jiyuan Liu, Jiaxing Yan, Chunjiang Zhu, Xingyu Liu, Li Qing, Yanghui Rao* [[PDF](https://aclanthology.org/2025.emnlp-main.670/)]
+
+5. **Distributed Keyword-guided Topic Model with Lexical Knowledge Supervision** `TKDD 2025`
+
+  *Rui Wang, Yanan Wang, Ziang Li, Haitao Cheng, Guozi Sun* [[PDF](https://dl.acm.org/doi/abs/10.1145/3737881)]
+
+1. **MIT: Mutual Information Topic Model for Diverse Topic Extraction** `IEEE TNNLS 2024`
+
+   *Rui Wang; Deyu Zhou; Haiping Huang; Yongquan Zhou* [[PDF](https://ieeexplore.ieee.org/abstract/document/10423818/)]
+
 ### Special Scenarios Adaptations
 
 #### Short Text
@@ -245,6 +276,12 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 2. **CTM-MM: Cross-modal Topic Model for Multimodal Social Media** `WWW 2023`
 
    *Junaid Rashid, Jungeun Kim, Usman Naseem* [[PDF](https://dl.acm.org/doi/10.1145/3543507.3587433)]
+
+3. **Mining User Preferences from Online Reviews with the Genre-aware Personalized Neural Topic Model** `WWW 2025`
+
+   *Rui Wang, Jiahao Lu, Xincheng Lv, Shuyu Chang, Yansheng Wu, Yuanzhi Yao, Haiping Huang, Guozi Sun* [[PDF](https://dl.acm.org/doi/abs/10.1145/3696410.3714775)]
+
+4. **ST-HNTM: Joint Speech-Text Neural Topic Modeling on the Hypersphere** `ICASSP 2026`
 
 ## LLM-Assisted Topic Models
 
@@ -287,6 +324,10 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 
 3. **LLM-ITL: Neural Topic Modeling with LLM-based Optimal Transport Alignment**  [[Code](https://github.com/Xiaohao-Yang/LLM-ITL)]
 
+4. **A Large Language Model Guided Topic Refinement Mechanism for Short Text Modeling** `DASFAA 2025`
+
+   *Shuyu Chang, Rui Wang, Peng Ren, Qi Wang, Haiping Huang* [[PDF](https://link.springer.com/chapter/10.1007/978-981-95-3830-0_32)]
+
 ### Evaluation and Analysis
 
 1. **Revisiting Automated Topic Model Evaluation with Large Language Models** `EMNLP 2023`
@@ -309,6 +350,10 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 
    *Xiaoran Liu, Ruixiao Li, Mianqiu Huang, Zhigeng Liu, Yuerong Song, Qipeng Guo, Siyang He, Qiqi Wang, Linlin Li, Qun Liu, Ziwei He, Yaqian Zhou, Xuanjing Huang, Xipeng Qiu* [[PDF](https://arxiv.org/abs/2502.17129)]
 
+6. **Bridging the Evaluation Gap: Leveraging Large Language Models for Topic Model Evaluation** `IRCDL 2025`
+
+   *Zhiyin Tan, Jennifer D'Souza* [[PDF](https://arxiv.org/abs/2502.07352)]
+
 ## LLM-Centric Topic Models
 
 ### Level 1: Prompt-based Topic Modeling
@@ -330,6 +375,12 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 4. **Topic Modeling as Long-form Generation** `arXiv 2025`
 
    *Xuan Xu, Haolun Li, Zhongliang Yang, Beilin Chu, Jia Song, Moxuan Xu, Linna Zhou* [[PDF](https://arxiv.org/abs/2510.03174)]
+
+5. **Topic Modeling and Alignment with Large Language Models for Multi-Labeled Text Corpora** `Expert Systems with Applications 2025`
+
+   *R Wang, Z Li, Y Zheng, G Luo, Y Zhou* [[PDF](https://www.sciencedirect.com/science/article/pii/S0957417425045737)]
+
+6. **RAPTM: Retrieval-Augmented Prompting for Short-Text Topic Modeling** `ICASSP 2026`
 
 #### Two-Round LLM-Centric Topic Models
 
@@ -358,6 +409,18 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 4. **automated survey pipelines** `arXiv 2025`
    
    *Xun Liang, Jiawei Yang, Yezhaohui Wang, Chen Tang, Zifan Zheng, Shichao Song, Zehao Lin, Yebin Yang, Simin Niu, Hanyu Wang, Bo Tang, Feiyu Xiong, Keming Mao, Zhiyu li*[[PDF](https://arxiv.org/abs/2502.14776)]
+
+5. **LLooM: Concept Induction with High-Level Concepts Using LLMs** `CHI 2024`
+
+   *Michelle S. Lam, Janice Teoh, James A. Landay, Jeffrey Heer, Michael S. Bernstein* [[PDF](https://arxiv.org/abs/2404.12259)]
+
+6. **SPARK: Simulating the Co-evolution of Stance and Topic Dynamics in Online Discourse with LLM-based Agents** `EMNLP 2025`
+
+   *Bowen Zhang, Yi Yang, Fuqiang Niu, Xianghua Fu, Genan Dai, Hu Huang* [[PDF](https://aclanthology.org/2025.emnlp-main.1176v2.pdf)]
+
+7. **EvoCorps: An Evolutionary Multi-Agent Framework for Depolarizing Online Discourse** `Arxiv 2026`
+
+   *Ning Lin, Haolun Li, Mingshu Liu, Chengyun Ruan, Kaibo Huang, Yukun Wei, Zhongliang Yang, Linna Zhou* [[PDF](https://arxiv.org/abs/2602.08529)]
 
 ## Datasets and Benchmarks
 
@@ -405,6 +468,9 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 - **LLM Coherence**: LLM-judged topic coherence
 - **LLM Informativeness**: LLM-judged topic informativeness
 - **Human Correlation**: Correlation with human judgments
+- **Disentangling Transformer Language Models as Superposed Topic Models**
+- **Interpreting Topic Models in Byte-Pair Encoding Space**
+- **LLM as Attention-Informed NTM and Topic Modeling as long-input Generation: Interpretability and long-Context Capability** 
 
 ## Tools and Libraries
 
