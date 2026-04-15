@@ -11,11 +11,13 @@ The template is adapted from [Awesome-Language-Model-on-Graphs](https://github.c
 
 LLMs have become foundational across many NLP applications, driving a shift from an algorithm‑centric to a context‑centric paradigm. As an important task in text mining, the landscape of topic modeling (TM) is similarly being reshaped by a growing body of LLM-driven research.
 
-From the perspective of LLM involvement, we review recent TM developments and categorize existing methods into three groups: Classical, LLM‑Assisted, and LLM‑Centric.
+We review recent TM developments and categorize existing methods into three groups: Classical Algorithm-Centric, LLM‑Assisted, and LLM‑Centric.
 
-For Classical methods, we refine prior taxonomies and highlight recent advances. For the LLM‑Assisted and LLM‑Centric settings, we introduce a new taxonomy that emphasizes the role of LLMs and the design of end-to-end workflows, respectively.
+For traditional algorithm-centric methods, we refine prior taxonomies and highlight recent advances. For the LLM-Assisted and LLM‑Centric settings, we introduce a new taxonomy that emphasizes the role of LLMs and the design of end-to-end workflows, respectively. 
 
-We further discuss how the TM paradigm may evolve—spanning task boundaries, input choices, and distributional definitions—and outline key challenges and prospective future directions. We hope this survey catalyzes deeper integration between TM and LLMs—advancing topic modeling that is easier to use, more powerful, and more flexible.
+We examine the transformative impact of LLM-Centric TM, characterized by several key developments: broadened and more inclusive task scope across multiple dimensions, a conceptual move away from conventional distributions toward entropy-focused metrics for evaluating topic prominence and keyword focus. 
+
+We also propose a future roadmap for more optimized LLM-Centric TMs and identify critical ongoing challenges. We aim for this survey to spur closer integration between TM and LLMs and to further drive the progress of modern TM.
 
 ## Contents
 
