@@ -53,6 +53,7 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
       - [Two-Round LLM-Centric Topic Models](#two-round-llm-centric-topic-models)
     - [Level 2: Agentic Topic Modeling and Similar Systems](#level-2-agentic-topic-modeling-and-similar-systems)
       - [Multi-Agent and RAG-based Systems](#multi-agent-and-rag-based-systems)
+    - [Interpretation of LLMs as Topic Models](#interpretation-of-llms-as-topic-models)
   - [Datasets and Benchmarks](#datasets-and-benchmarks)
   - [Evaluation Metrics](#evaluation-metrics)
     - [Coherence Metrics](#coherence-metrics)
@@ -61,8 +62,9 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
     - [LLM-based Metrics](#llm-based-metrics)
   - [Tools and Libraries](#tools-and-libraries)
     - [Classical Topic Modeling](#classical-topic-modeling)
-    - [Neural Topic Modeling](#neural-topic-modeling)
+    - [Neural and Embedding-based Topic Modeling](#neural-and-embedding-based-topic-modeling)
     - [LLM-based Topic Modeling](#llm-based-topic-modeling)
+    - [Evaluation and Benchmarking](#evaluation-and-benchmarking)
   - [Contribution](#contribution)
 
 ## Prior Surveys
@@ -239,10 +241,6 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 
   *Rui Wang, Yanan Wang, Ziang Li, Haitao Cheng, Guozi Sun* [[PDF](https://dl.acm.org/doi/abs/10.1145/3737881)]
 
-1. **MIT: Mutual Information Topic Model for Diverse Topic Extraction** `IEEE TNNLS 2024`
-
-   *Rui Wang; Deyu Zhou; Haiping Huang; Yongquan Zhou* [[PDF](https://ieeexplore.ieee.org/abstract/document/10423818/)]
-
 ### Special Scenarios Adaptations
 
 #### Short Text
@@ -280,6 +278,10 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 3. **Mining User Preferences from Online Reviews with the Genre-aware Personalized Neural Topic Model** `WWW 2025`
 
    *Rui Wang, Jiahao Lu, Xincheng Lv, Shuyu Chang, Yansheng Wu, Yuanzhi Yao, Haiping Huang, Guozi Sun* [[PDF](https://dl.acm.org/doi/abs/10.1145/3696410.3714775)]
+
+4. **MIT: Mutual Information Topic Model for Diverse Topic Extraction** `IEEE TNNLS 2024`
+
+   *Rui Wang; Deyu Zhou; Haiping Huang; Yongquan Zhou* [[PDF](https://ieeexplore.ieee.org/abstract/document/10423818/)]
 
 4. **ST-HNTM: Joint Speech-Text Neural Topic Modeling on the Hypersphere** `ICASSP 2026`
 
@@ -372,15 +374,9 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 
    *Kappei* [[PDF](https://medium.com/@kappei/a-novel-approach-to-topic-modeling-using-large-language-models-llms-648c131393d2)]
 
-4. **Topic Modeling as Long-form Generation** `arXiv 2025`
-
-   *Xuan Xu, Haolun Li, Zhongliang Yang, Beilin Chu, Jia Song, Moxuan Xu, Linna Zhou* [[PDF](https://arxiv.org/abs/2510.03174)]
-
-5. **Topic Modeling and Alignment with Large Language Models for Multi-Labeled Text Corpora** `Expert Systems with Applications 2025`
+4.  **Topic Modeling and Alignment with Large Language Models for Multi-Labeled Text Corpora** `Expert Systems with Applications 2025`
 
    *R Wang, Z Li, Y Zheng, G Luo, Y Zhou* [[PDF](https://www.sciencedirect.com/science/article/pii/S0957417425045737)]
-
-6. **RAPTM: Retrieval-Augmented Prompting for Short-Text Topic Modeling** `ICASSP 2026`
 
 #### Two-Round LLM-Centric Topic Models
 
@@ -402,25 +398,34 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 
 1. **Coordinated multi-prompt or multi-agent workflows**[[Code](https://lilianweng.github.io/posts/2023-06-23-agent/)]
 
-2. **Aella Explorer** [[Code](https://github.com/context-labs/aella-data-explorer)]
-
-3. **BettaFish** [[Code](https://github.com/666ghj/BettaFish/tree/main)]
-
-4. **automated survey pipelines** `arXiv 2025`
+2. **LLooM: Concept Induction with High-Level Concepts Using LLMs** `CHI 2024`
    
-   *Xun Liang, Jiawei Yang, Yezhaohui Wang, Chen Tang, Zifan Zheng, Shichao Song, Zehao Lin, Yebin Yang, Simin Niu, Hanyu Wang, Bo Tang, Feiyu Xiong, Keming Mao, Zhiyu li*[[PDF](https://arxiv.org/abs/2502.14776)]
+   *Michelle S. Lam, Janice Teoh, James A. Landay, Jeffrey Heer, Michael S. Bernstein* [[PDF]https://dl.acm.org/doi/10.1145/3613904.3642830]
 
-5. **LLooM: Concept Induction with High-Level Concepts Using LLMs** `CHI 2024`
+3. **SPARK: Simulating the Co-evolution of Stance and Topic Dynamics in Online Discourse with LLM-based Agents** `EMNLP 2025`
+   
+   *Bowen Zhang, Yi Yang, Fuqiang Niu, Xianghua Fu, Genan Dai, Hu Huang* [[PDF]https://aclanthology.org/2025.emnlp-main.1176v2.pdf]
 
-   *Michelle S. Lam, Janice Teoh, James A. Landay, Jeffrey Heer, Michael S. Bernstein* [[PDF](https://arxiv.org/abs/2404.12259)]
+4. **Aella Explorer** [[Code](https://github.com/context-labs/aella-data-explorer)]
 
-6. **SPARK: Simulating the Co-evolution of Stance and Topic Dynamics in Online Discourse with LLM-based Agents** `EMNLP 2025`
-
-   *Bowen Zhang, Yi Yang, Fuqiang Niu, Xianghua Fu, Genan Dai, Hu Huang* [[PDF](https://aclanthology.org/2025.emnlp-main.1176v2.pdf)]
-
-7. **EvoCorps: An Evolutionary Multi-Agent Framework for Depolarizing Online Discourse** `Arxiv 2026`
+5. **EvoCorps: An Evolutionary Multi-Agent Framework for Depolarizing Online Discourse** `Arxiv 2026`
 
    *Ning Lin, Haolun Li, Mingshu Liu, Chengyun Ruan, Kaibo Huang, Yukun Wei, Zhongliang Yang, Linna Zhou* [[PDF](https://arxiv.org/abs/2602.08529)]
+
+6. **automated survey pipelines** `arXiv 2025`
+   
+   *Xun Liang, Jiawei Yang, Yezhaohui Wang, Chen Tang, Zifan Zheng, Shichao Song, Zehao Lin, Yebin Yang, Simin Niu, Hanyu Wang, Bo Tang, Feiyu Xiong, Keming Mao, Zhiyu li* [[PDF](https://arxiv.org/abs/2502.14776)]
+
+### Interpretation of LLMs as Topic Models
+
+1. **Treating TLMs as "superposed topic models** `EMNLP 2023`
+   *Jia Peng Lim, Hady W. Lauw* [[PDF](https://aclanthology.org/2023.emnlp-main.534/)]
+   
+2. **Interpreting Topic Models in Byte-Pair Encoding Space** `COLING 2025`
+   *Jia Peng Lim, Hady Lauw* [[PDF](https://aclanthology.org/2025.coling-main.720/)]
+
+3. **LLM as Attention-Informed NTM and Topic Modeling as long-input Generation** `arXiv 2026`
+   *Xuan Xu, Zhongliang Yang, Haolun Li, Beilin Chu, Rui Tian, Yu Li, Shaolin Tan, Linna Zhou* [[PDF]https://arxiv.org/abs/2510.03174]
 
 ## Datasets and Benchmarks
 
@@ -448,55 +453,65 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 
 ### Coherence Metrics
 
-- **C_V**: Normalized pointwise mutual information
-- **C_NPMI**: Normalized PMI coherence
-- **C_UCI**: UCI coherence measure
-- **C_UMass**: UMass coherence measure
+- **C_V**: A widely used coherence score that combines normalized pointwise mutual information with a sliding window and cosine similarity over word vectors.
+- **C_NPMI**: Normalized PMI-based coherence; it measures the strength of association between topic words and is robust to topic size.
+- **C_UCI**: UCI coherence uses pointwise mutual information between word pairs within a topic and is effective for comparing semantic tightness.
+- **C_UMass**: An intrinsic coherence metric based on document co-occurrence counts, commonly used for probabilistic topic models.
 
 ### Diversity Metrics
 
-- **Topic Diversity**: Percentage of unique words across topics
-- **Inverted RBO**: Rank-biased overlap measure
+- **Topic Diversity**: The proportion of unique top words across all topics, used to detect redundancy and repeated concepts.
+- **Inverted RBO**: Rank-biased overlap adapted to topic modeling, quantifying overlap between ranked topic-word lists and rewarding distinct topic representations.
+- **Topic Uniqueness**: The complement of word overlap across topics, reflecting how well topics cover different semantic aspects.
 
 ### Quality Metrics
 
-- **Perplexity**: Model's predictive performance
-- **Topic Quality**: Combined coherence and diversity
+- **Perplexity**: Measures how well a model predicts held-out documents. In modern topic modeling, low perplexity often does not guarantee human-interpretable topics.
+- **Topic Quality**: A composite measure that combines coherence and diversity, capturing both semantic consistency and topic distinctiveness.
+- **Downstream Utility**: Performance on tasks such as document classification, retrieval, or clustering, which evaluates whether topic representations are useful in practice.
 
 ### LLM-based Metrics
 
-- **LLM Coherence**: LLM-judged topic coherence
-- **LLM Informativeness**: LLM-judged topic informativeness
-- **Human Correlation**: Correlation with human judgments
-- **Disentangling Transformer Language Models as Superposed Topic Models**
-- **Interpreting Topic Models in Byte-Pair Encoding Space**
-- **LLM as Attention-Informed NTM and Topic Modeling as long-input Generation: Interpretability and long-Context Capability** 
+- **LLM Coherence**: Judgment of topic coherence from an LLM, often using prompts to score whether top words form a coherent concept.
+- **LLM Relevance / Informativeness**: LLM-based evaluation of how informative and semantically relevant each topic is to the target corpus.
+- **Human Correlation**: The alignment between automated metrics and human judgments, with LLM-based scoring shown to better correlate with human perception than many classic metrics.
+- **Prompt-driven Topic Assessment**: Using LLMs to directly compare candidate topic sets, identify redundancy, and rank topic quality under natural-language criteria.
+- **Entropy and Focus Metrics**: Emerging LLM-centric evaluations that emphasize topic prominence, keyword focus, and the distributional concentration of topic information.
 
 ## Tools and Libraries
 
+This section highlights representative tools and libraries for topic modeling across classical probabilistic methods, neural and embedding-based approaches, and emerging LLM-centered workflows. It also points to resources for evaluation, visualization, and practical topic analysis.
+
 ### Classical Topic Modeling
 
-1. **Gensim** - Python library for topic modeling [[Code](https://github.com/RaRe-Technologies/gensim)]
+1. **Gensim** — A mature Python toolkit for LDA, LSI, HDP, and related models, with built-in support for corpus processing and evaluation.
+2. **tomotopy** — A high-performance C++/Python library for LDA, DMR, and other Bayesian topic models, optimized for speed and scalability.
+3. **MALLET** — A Java-based framework for efficient LDA, topic modeling, and text classification, widely used in research and production.
+4. **Scikit-learn** — Includes baseline implementations of LDA, NMF, and clustering-based topic extraction useful for prototyping and comparison.
+5. **PyLDAvis** — Interactive browser-based visualization for analyzing topic-word distributions and document-topic relationships.
 
-2. **Scikit-learn** - Machine learning library with LDA [[Code](https://github.com/scikit-learn/scikit-learn)]
+### Neural and Embedding-based Topic Modeling
 
-3. **MALLET** - Java-based topic modeling toolkit [[Link](http://mallet.cs.umass.edu/)]
-
-### Neural Topic Modeling
-
-1. **TopMost** - Neural topic modeling toolkit [[Code](https://github.com/bobxwu/topmost)]
-
-2. **BERTopic** - BERT-based topic modeling [[Code](https://github.com/MaartenGr/BERTopic)]
-
-3. **FASTopic** - Fast and adaptive topic modeling [[Code](https://github.com/bobxwu/FASTopic)]
-
-4. **Contextualized Topic Models** - CTM implementation [[Code](https://github.com/MilaNLProc/contextualized-topic-models)]
+1. **BERTopic** — Combines transformer embeddings, clustering, and class-based TF-IDF to produce interpretable topics from contextual text representations.
+2. **FASTopic** — An adaptive and stable neural topic modeling framework designed for fast training and robust topic quality.
+3. **Contextualized Topic Models** — Implementation of CTM that integrates BERT-style embeddings with probabilistic topic modeling.
+4. **TopMost** — A neural topic modeling toolkit emphasizing corpus-scalable training and modern topic quality metrics.
+5. **Top2Vec** — A document-and-topic embedding method that discovers topic clusters directly from semantic vector spaces.
 
 ### LLM-based Topic Modeling
 
-1. **AgenTopic** - Multi-agent topic modeling framework [[Code](https://github.com/pariskang/AgenTopic)]
+1. **AgenTopic** — Multi-agent topic modeling framework that leverages LLM planning and refinement to generate coherent topic hierarchies.
+2. **LimTopic** — LLM-guided topic discovery system focusing on semantic awareness and adaptive clustering.
+3. **LLM-ITL** — A framework for LLM-assisted topic model alignment using optimal transport and proxy annotations.
+4. **LangChain** — A general LLM orchestration library often used to build prompt-driven topic analysis pipelines and retrieval-augmented topic workflows.
+5. **Hugging Face Transformers** — Provides pre-trained language models and tokenizer support for prompt engineering, embedding extraction, and LLM-based evaluation.
 
-2. **LimTopic** - LLM-based topic modeling [[Code](https://github.com/bobxwu/LimTopic)]
+### Evaluation and Benchmarking
+
+1. **Hugging Face Evaluate** — Standardized metric library to compute coherence, clustering, and ranking scores for topic modeling experiments.
+2. **TopicEval** — Tools for measuring topic coherence, diversity, and human alignment in a reproducible way.
+3. **OpenAI / Azure OpenAI** — Used as a backend for LLM-based topic evaluation, natural-language topic assessment, and prompt-driven scoring.
+4. **LLMScore** — Emerging evaluation utilities for LLM judgment of topic coherence and informativeness.
 
 ## Contribution
 
