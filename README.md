@@ -169,6 +169,11 @@ We also propose a future roadmap for more optimized LLM-Centric TMs and identify
 
    *Wei Shao, Mingyang Liu, Linqi Song* [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888356)]
 
+3. **GLMTopic: A Hybrid Chinese Topic Model Leveraging Large Language Models** `CMC 2025`
+   
+   *Weisi Chen, Walayat Hussain, Junjie Chen* [[PDF](https://www.sciencedirect.com/org/science/article/pii/S1546221825007957)]
+
+
 ### Variational Autoencoder (VAE) Based Models
 
 #### Foundation
